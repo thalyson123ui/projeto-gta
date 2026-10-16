@@ -48,6 +48,7 @@ body {
     font-size: 32px;
     font-weight: 700;
     background: linear-gradient(135deg, #ff007a 0%, #ffbe00 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border: 2px solid #ff007a;
@@ -141,6 +142,7 @@ h1 {
 /* Texto com gradiente Rosa -> Amarelo */
 .texto-gradiente {
     background: linear-gradient(90deg, #ff007a 0%, #ffbe00 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
