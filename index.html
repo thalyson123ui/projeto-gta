@@ -1,48 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>projeto gta</title>
+    <title>Grand Theft Auto VI - Seleção de Personagem</title>
+    <!-- Fonte no estilo oficial da Rockstar / GTA -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;0,900;1,900&family=Teko:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     
-        <meta charset="UTF-8">
-        
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        
-        <title>Document</title>
-    </head>
 
-    
-    <body>
-           <p class="nome">Lucia</p>
+    <main class="container">
+        <!-- Logo e marca d'água no estilo Rockstar -->
+        <header class="rockstar-header">
+            <span class="badge-gta">VI</span>
+        </header>
 
-    <img class="personagem" src="img/lucia.png">
-    
+        <!-- Nome do personagem em destaque no fundo com tom Vice City -->
+        <p class="nome-destaque">LUCIA</p>
 
-    <div class="textos">
+        <!-- Imagem do personagem selecionado -->
+        <div class="destaque-personagem">
+            <img class="personagem-img" src="img/lucia.png" alt="Personagem Lucia">
+        </div>
 
-        <p class="etiqueta">Selecione o seu Personagem</p>
-        <h1>Não é só <br>um Jogo</h1>
-        <p class="texto-apoio">Escolha uma lenda de vice City. Ou tire uma selfie e vire uma.</p>
+        <!-- Textos e apresentação no padrão Rockstar Games -->
+        <section class="conteudo-texto">
+            <span class="etiqueta">VICE CITY // SELEÇÃO</span>
+            <h1>NÃO É SÓ <br><span class="texto-gradiente">UM JOGO</span></h1>
+            <p class="texto-apoio">Escolha uma lenda de Vice City e domine as ruas do estado de Leonida.</p>
+        </section>
 
-    </div>
+        <!-- Menu de seleção no estilo Glassmorphism Neon -->
+        <nav class="menu-selecao">
+            <button class="btn-avatar ativo" aria-label="Selecionar Lucia">
+                <img src="img/lucia.png" alt="Avatar Lucia">
+                <span class="nome-btn">LUCIA</span>
+            </button>
+            <button class="btn-avatar" aria-label="Selecionar Jason">
+                <img src="img/jason.png" alt="Avatar Jason">
+                <span class="nome-btn">JASON</span>
+            </button>
+            <button class="btn-avatar" aria-label="Selecionar CJ">
+                <img src="img/cj.png" alt="Avatar CJ">
+                <span class="nome-btn">CJ</span>
+            </button>
+        </nav>
+    </main>
 
-    <div class="menu">
-
-        <img class="avatar" src="img/lucia.png">
-
-        <img class="avatar" src="img/jason.png">
-
-        <img class="avatar" src="img/cj.png">
-
-        <button class="voce">📸</button>
-
-    </div>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
